@@ -31,11 +31,26 @@ $ php artisan db:seed
 ## Usage
 
 To get random image, you have to call following API
+
+[Live Link](http://dogimg.clicksitetesting.website/api/images)
+
+```python
+http://dogimg.clicksitetesting.website/api/images
+```
+Local
+
 ```python
 http://squad.local/api/images
 ```
 
 To get random fact, you have to call following API
+
+[Live Link](http://dogimg.clicksitetesting.website/api/fact/2)
+```python
+http://dogimg.clicksitetesting.website/api/fact/2
+```
+
+Local
 ```python
 http://squad.local/api/fact/5
 ```
