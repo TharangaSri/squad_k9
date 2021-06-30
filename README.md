@@ -32,30 +32,40 @@ $ php artisan db:seed
 
 To get random image, you have to call following API
 
-[Live Link](http://dogimg.clicksitetesting.website/api/images)
+**[Live Link](http://dogimg.clicksitetesting.website/api/images)**
 
 ```python
 http://dogimg.clicksitetesting.website/api/images
 ```
-Local
+**Local**
 
 ```python
 http://squad.local/api/images
 ```
 
+**Json Return**
+
+```python
+{"fileSizeBytes":182509,"url":"http:\/\/squad.local\/uploads\/images\/345fbb70bd7d9fcf2886ff3e678def04.jpg"}
+```
+
 To get random fact, you have to call following API
 
-[Live Link](http://dogimg.clicksitetesting.website/api/fact/2)
+**[Live Link](http://dogimg.clicksitetesting.website/api/fact/2)**
 ```python
 http://dogimg.clicksitetesting.website/api/fact/2
 ```
 
-Local
+**Local**
 ```python
 http://squad.local/api/fact/5
 ```
 You can change last number "5" according to your request, according to this number it'll change the fact count.
 
+**Json Return**
+```python
+[{"fact":"Ut corrupti commodi voluptatibus corporis cum impedit et."},{"fact":"Fugiat modi exercitationem et ut natus."}]
+```
 
 ## Unit Testing
 To run unittest you have to run following command
