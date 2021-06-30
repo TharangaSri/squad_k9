@@ -46,7 +46,7 @@ class AssetsController extends Controller
 
 
                 //create end user url
-                $url = 'http://' . $_SERVER['SERVER_NAME'] . $this->imagePath . $random_file_name;
+                $url = 'http://' . $_SERVER['SERVER_NAME'] . $this->imageTempPath . $random_file_name;
                 //get file size
                 $size = filesize($new_temp_image_file);
             }
